@@ -39,3 +39,17 @@ h2 {
   color: red;
   background-color: black;
 }
+
+button {
+  border: none;
+  padding: 2px 4px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+button:disabled {
+  background-color: grey;
+  color: white;
+}
+button:active {
+  background-color: lightsalmon;
+}
